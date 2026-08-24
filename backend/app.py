@@ -2,8 +2,8 @@ import os
 from datetime import datetime
 
 from flask import Flask, request, jsonify
-from flask_cors import CORS
-from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS # pyright: ignore[reportMissingModuleSource]
+from flask_sqlalchemy import SQLAlchemy # pyright: ignore[reportMissingImports]
 
 
 app = Flask(__name__)
