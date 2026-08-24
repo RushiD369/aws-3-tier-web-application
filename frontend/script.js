@@ -15,7 +15,7 @@ form.addEventListener("submit", async function (event) {
         name: name,
         email: email,
         message: message
-};
+    };
 
     result.textContent = "Submitting...";
 
