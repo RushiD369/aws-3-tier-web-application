@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "http://3.85.93.85";
 
 const form = document.getElementById("submissionForm");
 const result = document.getElementById("result");
@@ -15,7 +15,7 @@ form.addEventListener("submit", async function (event) {
         name: name,
         email: email,
         message: message
-    };
+};
 
     result.textContent = "Submitting...";
 
