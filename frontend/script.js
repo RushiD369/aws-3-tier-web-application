@@ -1,4 +1,4 @@
-const API_URL = "http://3.85.93.85";
+const API_URL = "http://54.160.130.61";
 
 const form = document.getElementById("submissionForm");
 const result = document.getElementById("result");
